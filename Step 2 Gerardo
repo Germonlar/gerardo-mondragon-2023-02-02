@@ -1,0 +1,25 @@
+What to test for the API
+
+TC1-Test with valid latitude and longitude values: Pass valid values for latitude and longitude and verify that the API returns the correct information.
+
+TC2-Test with invalid latitude and longitude values: Pass invalid values for latitude and longitude (such as alphanumeric or out of range values) and verify that the API returns an appropriate error message.
+
+TC3-Test with valid 5-digit zip code: Pass a valid 5-digit zip code for US cities and verify that the API returns the correct information.
+
+TC4-Test with invalid zip code: Pass an invalid zip code (such as alphanumeric or out of range values) and verify that the API returns an appropriate error message.
+
+TC5-Test with valid city name: Pass a valid city name and verify that the API returns the correct information.
+
+TC6-Test with invalid city name: Pass an invalid city name (such as alphanumeric or non-existent city name) and verify that the API returns an appropriate error message.
+
+TC7-Test with valid US state name: Pass a valid US state name and verify that the API returns the correct location information.
+
+TC8-Test with invalid US state name: Pass an invalid US state name (such as alphanumeric or non-existent state name) and verify that the API returns an appropriate error message
+
+TC9-Test with valid country name: Pass a valid country name and verify that the API returns the correct location information.
+
+TC10-Test with invalid country name: Pass an invalid country name (such as alphanumeric or non-existent country name) and verify that the API returns an appropriate error message.
+
+TC11-Test with missing required parameters: Omit one or more of the required parameters and verify that the API returns an appropriate error message.
+
+TC12-Test with all parameters: Pass all the parameters and verify that the API returns the correct location information.
